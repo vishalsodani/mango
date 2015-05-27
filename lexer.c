@@ -138,7 +138,7 @@ static void readName(Lexer* lexer)
 
     if (isKeyword(lexer, "else")) type = TOKEN_ELSE;
     else if (isKeyword(lexer, "if")) type = TOKEN_IF;
-    else if (isKeyword(lexer, "var")) type = TOKEN_LET;
+    else if (isKeyword(lexer, "let")) type = TOKEN_LET;
 
     emitToken(lexer, type);
 }
