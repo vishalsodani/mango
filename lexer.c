@@ -132,7 +132,6 @@ Token* tokenize(Buffer* source)
 
 static void readName(Lexer* lexer)
 {
-    // TODO(bob): Handle digits and EOF.
     while (isName(peek(lexer)) || isDigit(peek(lexer))) advance(lexer);
 
     TokenType type = TOKEN_NAME;
