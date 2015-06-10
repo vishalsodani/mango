@@ -1,5 +1,5 @@
-#ifndef wren_lexer_h
-#define wren_lexer_h
+#ifndef mango_lexer_h
+#define mango_lexer_h
 
 #include <stdio.h>
 #include <string.h>
