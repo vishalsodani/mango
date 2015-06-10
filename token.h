@@ -1,5 +1,5 @@
-#ifndef wren_token_h
-#define wren_token_h
+#ifndef mango_token_h
+#define mango_token_h
 
 #include <stdio.h>
 #include <stdlib.h>
