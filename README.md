@@ -10,7 +10,7 @@ To build, just run:
 
 which should produce an executable called `mangoc` in the same directory. Run `mangoc` on the example file by doing
 
-    ./mangoc examples/test.mango
+    ./mangoc example/test.mango
 
 
 
